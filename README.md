@@ -13,6 +13,7 @@ I am an undergraduate student in **Mathematics & Computing** with a strong found
 I enjoy solving real-world problems by combining **mathematical theory, data-driven modeling, and scalable system design**, with a growing focus on **secure, reliable, and deployable ML systems**.
 
 ---
+📧 [Email](mailto:ashokbadu01@gmail.com) | 💼 [LinkedIn](https://www.linkedin.com/in/ashok-singodia-3821a7292/) | 🧑‍💻 [GitHub](https://github.com/AshokSingodia-Codes) | 📂 [Repos](https://github.com/AshokSingodia-Codes?tab=repositories) | 🚀 [Used Car ML App](https://usedcarpricepredictionappgit-jfw254dwosmbnhfmh9xeka.streamlit.app/)
 
 ## What I Do
 - Build **end-to-end machine learning pipelines**
@@ -77,8 +78,8 @@ MATLAB • Mathematica
 
 ## 📫 Contact
 - 📧 Email: ashokbadu01@gmail.com  
-- 💼 LinkedIn: (add when ready)  
-- 🧑‍💻 GitHub: https://github.com/YOUR_USERNAME
+- 💼 LinkedIn: https://www.linkedin.com/in/ashok-singodia-3821a7292/
+- 🧑‍💻 GitHub: https://github.com/AshokSingodia-Codes
 
 ---
 
