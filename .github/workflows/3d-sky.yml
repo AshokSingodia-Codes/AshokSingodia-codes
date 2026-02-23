@@ -1,0 +1,27 @@
+name: Generate 3D Contribution Sky
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate 3D Contribution Sky
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        with:
+          username: ${{ github.repository_owner }}
+
+      - name: Commit & Push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add -A .
+          git commit -m "Generate 3D contribution sky"
+          git push
