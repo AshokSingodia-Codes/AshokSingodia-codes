@@ -9,17 +9,17 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Pac-Man SVG
+      - name: Generate SVG (snake style but we name it pacman)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/pacman.svg?palette=github-dark
 
-      - name: Publish SVG
+      - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
