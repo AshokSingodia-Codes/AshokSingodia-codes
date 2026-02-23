@@ -61,8 +61,7 @@ Mathematica, MATLAB, MS Office
 ## 🌌 3D Sky Contribution Game
 *A 3D visualization of my GitHub activity — generated automatically*
 
-![3D Contribution Sky](https://raw.githubusercontent.com/AshokSingodia-Codes/AshokSingodia-Codes/output/profile-3d-contrib/profile-night-green.svg)
-
+![3D Contribution Sky](https://raw.githubusercontent.com/AshokSingodia-Codes/AshokSingodia-Codes/main/profile-3d-contrib/profile-night-green.svg)
 ---
 
 ## 📊 GitHub Activity
