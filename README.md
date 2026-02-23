@@ -57,10 +57,9 @@ Mathematica, MATLAB, MS Office
 
 
 ---
+## 🕹️ Pac-Man Contribution Game
 
-## 🔥 Contribution Heatmap
-
-![Heatmap](https://raw.githubusercontent.com/AshokSingodia-Codes/AshokSingodia-Codes/main/metrics-contributions.svg)
+![Pac-Man Contribution Game](https://raw.githubusercontent.com/AshokSingodia-Codes/AshokSingodia-Codes/output/pacman.svg)
 
 ## 📊 GitHub Activity
 
