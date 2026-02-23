@@ -68,3 +68,18 @@ MATLAB • Mathematica
 
 ##  Problem-Solving Pipeline
 ![Pac-Man Contribution Game](https://raw.githubusercontent.com/AshokSingodia-Codes/AshokSingodia-Codes/output/pacman.svg)
+## 📊 GitHub Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AshokSingodia-Codes&show_icons=true&theme=tokyonight)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AshokSingodia-Codes&theme=tokyonight)
+
+---
+
+## 📫 Contact
+- 📧 Email: ashokbadu01@gmail.com  
+- 💼 LinkedIn: (add when ready)  
+- 🧑‍💻 GitHub: https://github.com/YOUR_USERNAME
+
+---
+
+> *“Strong models come from strong mathematics.”*
