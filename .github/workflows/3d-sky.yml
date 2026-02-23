@@ -1,32 +1,27 @@
 name: Generate 3D Contribution Sky
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 18 * * *"
-  workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
-# ✅ IMPORTANT: allow workflow to push commits
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      # ✅ IMPORTANT: checkout the repo so git commit works
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Generate 3D Contribution Sky
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        with:
-          username: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & Push
         run: |
