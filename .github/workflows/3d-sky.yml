@@ -8,11 +8,21 @@ on:
     branches:
       - main
 
+# ✅ IMPORTANT: allow workflow to push commits
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # ✅ IMPORTANT: checkout the repo so git commit works
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
       - name: Generate 3D Contribution Sky
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         with:
@@ -20,8 +30,8 @@ jobs:
 
       - name: Commit & Push
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add -A .
-          git commit -m "Generate 3D contribution sky"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Generate 3D contribution sky" || echo "No changes to commit"
           git push
