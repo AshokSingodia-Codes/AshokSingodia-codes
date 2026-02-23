@@ -67,3 +67,4 @@ MATLAB • Mathematica
 ---
 
 ##  Problem-Solving Pipeline
+![Pac-Man Contribution Game](https://raw.githubusercontent.com/AshokSingodia-Codes/AshokSingodia-Codes/output/pacman.svg)
